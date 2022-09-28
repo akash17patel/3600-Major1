@@ -16,5 +16,5 @@ int power()
 	}
 
 	powerOfTwo(n);
-	
+
 }
