@@ -35,9 +35,12 @@ int main()
         goto xyz;
     }
     else if(choice == 3){
+        printf("Replace bit position from mask SELECTED\n\n");
 
     }
     else if(choice == 4){
+        printf("Palindrome SELECTED\n\n");
+        
 
     }
     else if(choice == 5){
