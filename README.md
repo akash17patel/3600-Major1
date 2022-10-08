@@ -14,8 +14,11 @@ MISSING!!! David Boulos (palindrome.c) Team. MISSING!!!
 MISSING!!! Versie Hodges (replace.c) Team. MISSING!!!
 
 Known bugs: Loops(fixed).
+
             1 Billion limit (fixed).
+
             Choice loop (fixed).
+            
             Not discovered anything further.
 
 Github: https://github.com/akash17patel/3600-Major1 
