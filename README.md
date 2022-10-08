@@ -13,7 +13,8 @@ MISSING!!! David Boulos (palindrome.c) Team. MISSING!!!
 
 MISSING!!! Versie Hodges (replace.c) Team. MISSING!!!
 
-Known bugs: Loops(fixed).
+Known bugs: 
+            Loops(fixed).
 
             1 Billion limit (fixed).
 
