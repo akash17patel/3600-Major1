@@ -1,7 +1,8 @@
-//Header file: REVERSE.C
-
 #include <stdio.h>
 #include<math.h>
+#include <stdbool.h>
+
+//Header file: REVERSE.C
 
 // Function to reverse bits of num
 unsigned int reverseBits(unsigned int num)

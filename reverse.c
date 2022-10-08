@@ -1,6 +1,3 @@
-#include <stdio.h>
-
-
 // Driver code
 int reverse()
 {
