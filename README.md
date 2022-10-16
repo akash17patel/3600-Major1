@@ -9,7 +9,7 @@ Akash Patel (major1.c, major1.h, reverse.c) ScrumMaster, Product Owner.
 
 Joshua Mears (Power.c) Team member, Product Owner.
 
-David Boulos (palindrome.c) Team... Received 10/15/22
+David Boulos (palindrome.c) Team... Received 10/15/22 (Had no time to seperate code into header and source files)
 
 MISSING!!! Versie Hodges (replace.c) Team. MISSING!!!
 
