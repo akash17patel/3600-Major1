@@ -1,5 +1,9 @@
 // Driver code
-int reverse()
+
+#include <stdio.h>
+
+
+void reverse()
 {
 	limit:
 	printf("Enter a positive integer less than 2 billion: ");
@@ -12,7 +16,5 @@ int reverse()
 		goto limit;
 	}
 	
-	printf("%u", reverseBits(x));
-	printf("\n\n");
-	getchar();
+	printf("%d", reverseBits(x));
 }

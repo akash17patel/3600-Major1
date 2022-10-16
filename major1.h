@@ -1,14 +1,13 @@
 #include <stdio.h>
-#include<math.h>
+#include <math.h>
 #include <stdbool.h>
 
 //Header file: REVERSE.C
-
 // Function to reverse bits of num
-unsigned int reverseBits(unsigned int num)
+int reverseBits(int num)
 {
-	unsigned int NO_OF_BITS = sizeof(num) * 8;
-	unsigned int reverse_num = 0;
+	int NO_OF_BITS = sizeof(num) * 8;
+	int reverse_num = 0;
 	int i;
 	for (i = 0; i < NO_OF_BITS; i++) {
 		if ((num & (1 << i)))
@@ -16,7 +15,6 @@ unsigned int reverseBits(unsigned int num)
 	}
 	return reverse_num;
 }
-
 //Header file: POWER.C
 
 void powerOfTwo(int n)

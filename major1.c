@@ -1,8 +1,8 @@
-#include <stdio.h>
 #include "major1.h"
 #include "reverse.c"
 #include "Power.c"
-//include "palindrome.c"MISSING FILE
+#include <stdio.h>
+#include "palindrome.c"
 //#include "replace.c"MISSING FILE
 
 int main()
@@ -47,8 +47,7 @@ int main()
     }
     else if(choice == 4){
         printf("Palindrome SELECTED\n\n");
-        printf("MISSING FILE\n\n");
-        //palindrome();
+        palindrome();
         goto xyz;
     }
     else if(choice == 5){
