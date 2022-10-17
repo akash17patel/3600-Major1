@@ -3,7 +3,7 @@
 #include "Power.c"
 #include <stdio.h>
 #include "palindrome.c"
-//#include "replace.c"MISSING FILE
+#include "replace.c"
 
 int main()
 {
@@ -41,8 +41,7 @@ int main()
     }
     else if(choice == 3){
         printf("Replace bit position from mask SELECTED\n\n");
-        printf("MISSING FILE\n\n");
-        //replace();
+        replace();
         goto xyz;
     }
     else if(choice == 4){

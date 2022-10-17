@@ -1,7 +1,7 @@
 # 3600-Major1
-Work submitted: Akash Patel, Joshua Mears, David Boulos
+Work submitted: Akash Patel, Joshua Mears, David Boulos, Versie Hodges
 
-NO WORK: Versie Hodges
+NO WORK: 
 
 Files coded by:
 
@@ -11,7 +11,7 @@ Joshua Mears (Power.c) Team member, Product Owner.
 
 David Boulos (palindrome.c) Team... Received 10/15/22 (Had no time to seperate code into header and source files)
 
-MISSING!!! Versie Hodges (replace.c) Team. MISSING!!!
+Versie Hodges (replace.c) Team... Received 10/17/22 (Had no time to seperate code into header and source files)
 
 Known bugs: 
             
