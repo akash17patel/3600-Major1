@@ -1,12 +1,12 @@
 #include<stdio.h>
-int replace()
+int three()
 {
 	int number=0,mask,index;
     while(1)
     {   
 	    printf("enter number: ");
 	    scanf("%d",&number);
-        if(number<0 || number>2,000,000,000){
+        if(number<0 || number>2000000000){
             continue;
           }
         else{break;}
@@ -16,7 +16,7 @@ int replace()
     {
 	    printf("enter mask: ");
 	    scanf("%d",&mask);
-        if(mask<0 || mask>3,000,000,000){
+        if(mask<0 || mask>3000000000){
             continue;
         }
         else{break;}

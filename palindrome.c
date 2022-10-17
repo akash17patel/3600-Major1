@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 #define SIZE 32
-int palindrome()
+int four()
 
 {
 

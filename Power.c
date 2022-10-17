@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-void power()
+void one()
 {
 	limitp:
 	printf("Enter a positive integer less than 2 billion: ");

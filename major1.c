@@ -31,22 +31,22 @@ int main()
     //option selection
     else if(choice == 1){
         printf("Power of 2 SELECTED\n\n");
-        power();
+        one();
         goto xyz;
     }
     else if(choice == 2){
         printf("Reverse bits SELECTED\n\n");
-        reverse();
+        two();
         goto xyz;
     }
     else if(choice == 3){
         printf("Replace bit position from mask SELECTED\n\n");
-        replace();
+        three();
         goto xyz;
     }
     else if(choice == 4){
         printf("Palindrome SELECTED\n\n");
-        palindrome();
+        four();
         goto xyz;
     }
     else if(choice == 5){

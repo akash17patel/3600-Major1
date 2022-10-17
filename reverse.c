@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 
-void reverse()
+void two()
 {
 	limit:
 	printf("Enter a positive integer less than 2 billion: ");
