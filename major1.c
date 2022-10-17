@@ -7,10 +7,14 @@
 
 int main()
 {
+    FILE *pw = fopen("Power.c", "r");
+    FILE *rev = fopen("reverse.c", "r");
+    FILE *pal = fopen("palindrome.c", "r");
+    FILE *rep = fopen("replace.c", "r");
     //loop pointer
     xyz:
     //option list
-    printf("Enter the menu option for the operation to perform:\n");
+    printf("\n\nEnter the menu option for the operation to perform:\n");
     printf("(1) POWER OF 2\n");
     printf("(2) REVERSE BITS\n");
     printf("(3) REPLACE BIT POSITION FROM MASK\n");
@@ -53,4 +57,8 @@ int main()
         printf("\nProgram will now terminate. GOODBYE!!!\n");
         return 0;
     }
+    fclose(pw);
+    fclose(rev);
+    fclose(pal);
+    fclose(rep);
 }

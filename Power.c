@@ -4,6 +4,7 @@
 
 void one()
 {
+	FILE *pr = fopen("major1.c", "r");
 	limitp:
 	printf("Enter a positive integer less than 2 billion: ");
 	int n;
@@ -16,5 +17,7 @@ void one()
 	}
 
 	powerOfTwo(n);
+
+	fclose(pr);
 
 }

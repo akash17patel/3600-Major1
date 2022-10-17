@@ -5,6 +5,7 @@
 
 void two()
 {
+	FILE *rev = fopen("major1.c", "r");
 	limit:
 	printf("Enter a positive integer less than 2 billion: ");
 	int x;
@@ -17,4 +18,5 @@ void two()
 	}
 	
 	printf("%d", reverseBits(x));
+	fclose(rev);
 }
