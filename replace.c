@@ -1,7 +1,7 @@
 #include<stdio.h>
 int three()
 {
-	FILE *rep = fopen("major1.c", "r");
+
 	int number=0,mask,index;
     while(1)
     {   
@@ -51,5 +51,5 @@ int three()
 
 	printf("Converted No: %d\n",number);
 	return 0;
-	fclose(rep);
+
 }

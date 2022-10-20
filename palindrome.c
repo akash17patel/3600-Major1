@@ -3,9 +3,7 @@
 #include <stdio.h>
 #define SIZE 32
 int four()
-
 {
-    FILE *pal = fopen("major1.c", "r");
     unsigned int n;
     printf("Enter a number in the range of 2 billion: ");
     scanf("%d",&n);
@@ -31,5 +29,4 @@ int four()
 
     printf("This is a palindrome\n");
     return 0;
-    fclose(pal);
 }
